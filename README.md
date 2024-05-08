@@ -12,6 +12,8 @@ Welcome to the Web Projects Repository! Here, I showcase a collection of web pro
 - **Project 1: Testimonials (Grid Layout)**
   - [View Project](https://gchapidze.github.io/web-projects/testimonials/)
   - Description: This project demonstrates the use of grid layout to create a testimonials section.
+- **Project 2: Sonnets (Grid template areas)**
+  - [View Project](https://gchapidze.github.io/web-projects/sonnets/)
 
 <!-- Add more projects as your repository expands -->
 
