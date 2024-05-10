@@ -16,7 +16,7 @@ img {
   margin: 12px 12px 12px 0;
 }
 
-main > *,
+main>*,
 section {
   display: flow-root;
 }
@@ -29,6 +29,7 @@ ul {
 article p span {
   display: block;
 }
+
 article p span:last-of-type,
 article p span:nth-last-child(2) {
   text-indent: 16px;
@@ -54,18 +55,23 @@ main {
 header {
   grid-area: header;
 }
+
 article {
   grid-area: content;
 }
+
 aside {
   grid-area: aside;
 }
+
 .author-details {
   grid-area: author;
 }
+
 .plays {
   grid-area: plays;
 }
+
 footer {
   grid-area: footer;
 }
