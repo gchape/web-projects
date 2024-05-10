@@ -3,8 +3,10 @@
 body {
   background-color: #f9f7f1;
   font-family: "PT Serif", serif;
+  max-width: 1200px;
   color: #404040;
   padding: 0 24px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -74,4 +76,27 @@ figure {
 
 figcaption {
   font-family: "Oswald", sans-serif;
+}
+
+@media(min-width: 955px) {
+  article {
+    column-count: 3;
+    column-rule: 2px solid #333333;
+    column-gap: 42px;
+    margin-top: 36px;
+  }
+
+  blockquote {
+    column-span: all
+  }
+
+  figure {
+    float: left;
+    margin-right: 24px;
+  }
+
+  p {
+    text-align: justify;
+    hyphens: auto;
+  }
 }
